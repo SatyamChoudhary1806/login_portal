@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+
+<html lang="en" style="height: 100%">
+    <head>
+        <meta charset="utf-8">
+        <title>Password reset</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Password reset">
+        </head>
+
+     <body style="height:100%;">
+            <div style="min-height: 100%; position: relative;">
+         <nav class="navbar top-nav hidden-xs">
+          <div class="container">
+           <ul class="navbar-right">
+             <li class=""><a href="login.html" class="login_link">Log in</a></li>
+            </ul>
+          </div>
+         </nav>
+                   <div class="container">
+                 <div class="row">
+    <div class="col-md-5 col-md-offset-3">
+      <div class="well">
+
+        <h1>Password reset</h1>
+
+        <p>
+          Forgotten your password? Enter your e-mail address below,
+          and we'll e-mail instructions for setting a new one.
+        </p>
+        <form action="" method="post">
+
+          <input type="hidden" name="token" value="#">
+          <div class="form-group">
+            
+            <input id="id_email" type="email" name="email" class="form-control" placeholder="your.email@example.com" >
+            <p></p>
+            <p></p>
+          </div>
+          <button type="submit" class="btn btn-primary" id="id_reset_password_submit">Reset my password</button>
+        </form>
+        <br />
+        <p><i>
+            If you don't receive an email, first, check your spam folder.
+            If that doesnt work, it may be because you never confirmed your email
+            address, 
+          </i>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>       
+    </body>
+</html>
